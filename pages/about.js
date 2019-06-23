@@ -76,6 +76,22 @@ function About() {
 						porque estaba al filo de la muerte y aún sigue vivo.
 					</p>
 				</div>
+				<div className="question-container">
+					<p className="question">
+						Tengo un iPhone y no puedo descargar la imagen.
+					</p>
+					<p className="answer">
+						Vuelve cuando haya salido la{' '}
+						<a
+							href="https://caniuse.com/#search=download"
+							rel="noopener noreferrer"
+							target="_blank"
+							title="Soporte de IOS para el atributo download"
+						>
+							version 13 de IOS.
+						</a>
+					</p>
+				</div>
 			</div>
 		</DefaultLayout>
 	);
