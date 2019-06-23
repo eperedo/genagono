@@ -46,6 +46,7 @@ function DefaultLayout({ children, title }) {
 					display: flex;
 					justify-content: center;
 					list-style: none;
+					padding: 0;
 				}
 
 				li {

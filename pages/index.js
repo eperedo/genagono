@@ -39,6 +39,12 @@ function Home({ defaultWord }) {
 							justify-content: center;
 						}
 
+						@media (max-width: 426px) {
+							.container {
+								flex-direction: column;
+							}
+						}
+
 						.form-control {
 							display: flex;
 							flex-direction: column;

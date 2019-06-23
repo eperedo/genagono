@@ -27,8 +27,8 @@ export function downloadPng(text) {
 		link.setAttribute('download', 'octagono.png');
 		link.click();
 		link.remove();
-		if (ga) {
-			ga('send', 'event', 'images', 'download', text);
+		if (window.ga) {
+			window.ga('send', 'event', 'images', 'download', text);
 		}
 	};
 }
