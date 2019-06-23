@@ -1,0 +1,20 @@
+{
+	"name": "genanogo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "next build",
+		"dev": "next",
+		"export": "next export",
+		"deploy": "npm run build; npm run export"
+	},
+	"keywords": [],
+	"author": "Eduardo P. Rivero <jrperedo@gmail.com> (https://blog.eperedo.com/)",
+	"license": "MIT",
+	"dependencies": {
+		"next": "8.1.0",
+		"react": "16.8.6",
+		"react-dom": "16.8.6"
+	}
+}
