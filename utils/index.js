@@ -25,13 +25,7 @@ export function downloadPng(text) {
 		link.setAttribute('type', 'hidden');
 		link.setAttribute('href', img);
 		link.setAttribute('download', 'octagono.png');
-		link.dispatchEvent(
-			new MouseEvent('click', {
-				bubbles: true,
-				cancelable: true,
-				view: window,
-			}),
-		);
+		link.click();
 		link.remove();
 		if (ga) {
 			ga('send', 'event', 'images', 'download', text);
