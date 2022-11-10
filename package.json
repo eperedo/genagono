@@ -13,7 +13,7 @@
 	"author": "Eduardo P. Rivero <jrperedo@gmail.com> (https://blog.eperedo.com/)",
 	"license": "MIT",
 	"dependencies": {
-		"next": "8.1.0",
+		"next": "13.0.2",
 		"react": "16.8.6",
 		"react-dom": "16.8.6"
 	}
